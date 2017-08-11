@@ -1,0 +1,64 @@
+CHANGES
+=======
+
+* Modifications after instance based add-on
+* Modifications after bson removal and timestamp to date conversion
+* json issue fix and sync with latest cloudkitty code
+* Added cloud storage pricing
+* Invoice addition feature implementation
+
+0.5.0
+-----
+
+* Updated requirements for mitaka
+* Update requirements
+* Fix argument order for assertEqual to (expected, observed)
+* Add support for query cost by service
+* cloudkittyclient with keystone v3 not working
+* Add helpinfo for collector commands
+* Fix name not defined error
+* Drop py33 support
+* Set AuthPlugin in __init__()
+* Fix help message
+* Fixed bug with report total
+* Fix a typo in command help
+* Add common arguments
+* Do no set the version in setup.cfg
+* Improve HashMap client
+* Update .gitreview for new namespace
+* Add support for PyScripts rating module
+* Change ignore-errors to ignore_errors
+* Moving to Liberty cycle (0.5)
+
+0.4.1
+-----
+
+* Preparing release 0.4.1
+* Fix syntax error of shell description
+* setup.cfg: set a version
+* Transitioned collector client to new API
+
+0.4.0
+-----
+
+* Refactored code to use new olso namespace
+* Fix the CLI for {group,mapping}-create
+* Add support for the hashmap threshold API
+* Add support for the storage API
+* Fix the hashmap related commands of cloudkittyclient
+* Fix the wrong input package of pbr of cloudkittyclient
+* Add predictive pricing
+* Provide a sample .spec file
+* Rename billing to rating
+* Global rewrite of the client
+* Stop using intersphinx
+* Work toward Python 3.4 support and testing
+* Add the billing/modules request (v1)
+* Move to oslotest
+* Add the billing/quote request
+* Boost the coverage and launch all the tests
+* Add the report request
+* Add tests for the client
+* Minor typo fixed in README
+* Initial work for the CloudKitty client
+* Added .gitreview

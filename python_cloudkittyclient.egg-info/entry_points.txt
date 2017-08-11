@@ -1,0 +1,7 @@
+[cloudkitty.client.modules]
+hashmap = cloudkittyclient.v1.rating.hashmap.extension:Extension
+pyscripts = cloudkittyclient.v1.rating.pyscripts.extension:Extension
+
+[console_scripts]
+cloudkitty = cloudkittyclient.shell:main
+
